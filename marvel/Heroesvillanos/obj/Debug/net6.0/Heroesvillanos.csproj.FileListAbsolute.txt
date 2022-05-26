@@ -1,0 +1,8 @@
+C:\Users\1\Excercises\Marvel\Heroesvillanos\obj\Debug\net6.0\Heroesvillanos.csproj.AssemblyReference.cache
+C:\Users\1\Excercises\Marvel\Heroesvillanos\obj\Debug\net6.0\Heroesvillanos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Excercises\Marvel\Heroesvillanos\obj\Debug\net6.0\Heroesvillanos.AssemblyInfoInputs.cache
+C:\Users\1\Excercises\Marvel\Heroesvillanos\obj\Debug\net6.0\Heroesvillanos.AssemblyInfo.cs
+C:\Users\1\Excercises\Marvel\Heroesvillanos\obj\Debug\net6.0\Heroesvillanos.csproj.CoreCompileInputs.cache
+C:\Users\1\Excercises\Marvel\Heroesvillanos\obj\Debug\net6.0\Heroesvillanos.dll
+C:\Users\1\Excercises\Marvel\Heroesvillanos\obj\Debug\net6.0\refint\Heroesvillanos.dll
+C:\Users\1\Excercises\Marvel\Heroesvillanos\obj\Debug\net6.0\Heroesvillanos.pdb
