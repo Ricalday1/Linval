@@ -1,18 +1,47 @@
 namespace Heroesvillanos;
 public class Repository
 {     
-    public List<Heroevillano> GetAll ()
-    {         
-        var listHeroevillanoStrings = FileReader.ReadFile(@"C:\Users\1\Desktop\marvel_dc_characters.csv");
+    public List<Heroevillano> ListHeroesvillanos { get; set;}
+    public bool LoadedFile {get; set;} = false;
 
-        List<Heroevillano>  ListHeroesvillanos = new List<Heroevillano>();        
-        foreach (var item in listHeroevillnoStrings.Skip(1))
+    public void LoadFile(String filename)
+    {
+        try
         {
-            var parser = new Parser();
-            var heroevillano = parser.Parse(item);
-            ListHeroesvillanos.Add(heroevillano);
+            ListHeroesvillanos = new List<Heroevillano>();
+            var listHeroevillanoStrings = FileReader.ReadFile(filename);
+            foreach (var item in listHeroevillanoStrings.Skip(1).Take(20))
+            {
+                // Console.WriteLine(item);
+                var parser = new Parser ();
+                var heroevillano = parser.Parse(item);
+                ListHeroesvillanos.Add(heroevillano);
+            }
         }
-
+        catch(Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }         
+        LoadedFile = true;
+    }
+    
+    public List<Heroevillano> GetAll ()
+    {
+        if(LoadedFile == false)
+        {
+            throw new Exception("No se ha cargado el archivo");
+        }
         return ListHeroesvillanos;
     }
-}
+
+    public List<Heroevillano> GetHeroevillanoName (String universe)
+    {
+        Console.WriteLine("leyendo nombres de heroes o villanos");
+        if(LoadedFile == false)
+        {
+            throw new Exception("No se ha cargado el archivo");
+        }
+        return ListHeroesvillanos.Where(m => m. Universe.Contains(universe)).ToList();
+    }
+    }
+       

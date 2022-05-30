@@ -10,7 +10,6 @@ public class Parser
         heroevillano.Name = values[1];
        // heroevillano.Gender = (Gender)Enum.Parse(typeof(Genre), values[2]);
       //  heroevillno.Alignment = (Alignment)Enum.Parse(typeof(Alige), values[3]);
-        heroevillano.Overview = values[4];
        // heroevillano.Eyecolor = long.Parse(values[5]);
         //heroevillano.Haircolor = values[6].Split('-').ToList();
         return heroevillano;
@@ -39,9 +38,9 @@ public class Parser
     public Identity ParseIndetity(string item)
     {
  
-        if (Enum.TryParse<Indentity>(item, out var identityValue))
+        if (Enum.TryParse<Identity>(item, out var identityValue))
             return identityValue;
         else
-            return Identity.none;
+            return Identity.NoDual;
     }
 }
