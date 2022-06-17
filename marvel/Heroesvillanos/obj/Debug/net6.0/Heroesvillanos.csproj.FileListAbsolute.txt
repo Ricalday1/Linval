@@ -6,3 +6,15 @@ C:\Users\1\Excercises\Marvel\Heroesvillanos\obj\Debug\net6.0\Heroesvillanos.cspr
 C:\Users\1\Excercises\Marvel\Heroesvillanos\obj\Debug\net6.0\Heroesvillanos.dll
 C:\Users\1\Excercises\Marvel\Heroesvillanos\obj\Debug\net6.0\refint\Heroesvillanos.dll
 C:\Users\1\Excercises\Marvel\Heroesvillanos\obj\Debug\net6.0\Heroesvillanos.pdb
+C:\Users\1\Linval\marvel\heroesvillanos\bin\Debug\net6.0\Heroesvillanos.deps.json
+C:\Users\1\Linval\marvel\heroesvillanos\bin\Debug\net6.0\Heroesvillanos.dll
+C:\Users\1\Linval\marvel\heroesvillanos\bin\Debug\net6.0\Heroesvillanos.pdb
+C:\Users\1\Linval\marvel\heroesvillanos\obj\Debug\net6.0\Heroesvillanos.csproj.AssemblyReference.cache
+C:\Users\1\Linval\marvel\heroesvillanos\obj\Debug\net6.0\Heroesvillanos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Linval\marvel\heroesvillanos\obj\Debug\net6.0\Heroesvillanos.AssemblyInfoInputs.cache
+C:\Users\1\Linval\marvel\heroesvillanos\obj\Debug\net6.0\Heroesvillanos.AssemblyInfo.cs
+C:\Users\1\Linval\marvel\heroesvillanos\obj\Debug\net6.0\Heroesvillanos.csproj.CoreCompileInputs.cache
+C:\Users\1\Linval\marvel\heroesvillanos\obj\Debug\net6.0\Heroesvillanos.dll
+C:\Users\1\Linval\marvel\heroesvillanos\obj\Debug\net6.0\refint\Heroesvillanos.dll
+C:\Users\1\Linval\marvel\heroesvillanos\obj\Debug\net6.0\Heroesvillanos.pdb
+C:\Users\1\Linval\marvel\heroesvillanos\obj\Debug\net6.0\ref\Heroesvillanos.dll

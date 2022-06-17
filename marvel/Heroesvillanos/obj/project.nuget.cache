@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YRbFQN2jSR96h00rzNBTB5eZoBos0pZYfSDWPDLxU0uh21C25PipJ/cgOQ7GEBjkWANDSqB1LeSpPbv68AH6NQ==",
+  "dgSpecHash": "z/iUSke0GFCR/8HCdd3SW+SZf2F/crFKIHeEmhkYkRCcRXzpj1T9FQg3+1ey3SxwhlRzpwQyginNxFJ5JO9y4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1\\Excercises\\marvel\\heroesvillanos\\Heroesvillanos.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\1\\Linval\\marvel\\heroesvillanos\\Heroesvillanos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\1\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

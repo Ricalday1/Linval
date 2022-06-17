@@ -34,14 +34,14 @@ public class Repository
         return ListHeroesvillanos;
     }
 
-    public List<Heroevillano> GetHeroevillanoName (String universe)
+    public List<Heroevillano> GetHeroevillanoName (String name)
     {
         Console.WriteLine("leyendo nombres de heroes o villanos");
         if(LoadedFile == false)
         {
             throw new Exception("No se ha cargado el archivo");
         }
-        return ListHeroesvillanos.Where(m => m. Universe.Contains(universe)).ToList();
+        return ListHeroesvillanos.Where(m => m. Universe.Contains(name)).ToList();
     }
     }
        

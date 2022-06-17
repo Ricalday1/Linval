@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1\\Excercises\\marvel\\heroesvillanos\\Heroesvillanos.csproj": {}
+    "C:\\Users\\1\\Linval\\marvel\\heroesvillanos\\Heroesvillanos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1\\Excercises\\marvel\\heroesvillanos\\Heroesvillanos.csproj": {
+    "C:\\Users\\1\\Linval\\marvel\\heroesvillanos\\Heroesvillanos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\Excercises\\marvel\\heroesvillanos\\Heroesvillanos.csproj",
+        "projectUniqueName": "C:\\Users\\1\\Linval\\marvel\\heroesvillanos\\Heroesvillanos.csproj",
         "projectName": "Heroesvillanos",
-        "projectPath": "C:\\Users\\1\\Excercises\\marvel\\heroesvillanos\\Heroesvillanos.csproj",
+        "projectPath": "C:\\Users\\1\\Linval\\marvel\\heroesvillanos\\Heroesvillanos.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\Excercises\\marvel\\heroesvillanos\\obj\\",
+        "outputPath": "C:\\Users\\1\\Linval\\marvel\\heroesvillanos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
