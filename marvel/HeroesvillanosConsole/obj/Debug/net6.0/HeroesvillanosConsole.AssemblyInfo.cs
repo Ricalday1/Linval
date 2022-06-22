@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("HeroesvillanosConsole")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("heroesvillanosconsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("HeroesvillanosConsole")]
-[assembly: System.Reflection.AssemblyTitleAttribute("HeroesvillanosConsole")]
+[assembly: System.Reflection.AssemblyProductAttribute("heroesvillanosconsole")]
+[assembly: System.Reflection.AssemblyTitleAttribute("heroesvillanosconsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
