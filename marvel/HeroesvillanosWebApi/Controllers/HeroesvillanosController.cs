@@ -35,5 +35,13 @@ public class HeroesvillanosController : ControllerBase
        // _logger.Log("Leyendo por nombre de heroes o villanos");
         return _repository.GetHeroevillanoByName(name);
     }
+
+     [HttpPost]
+    [Route("Heroesvillanos")]
+    public long Post([FromBody] Heroevillano heroevillano)
+    {
+        return _repository.Create(heroevillano);
+    }
 }
+
    
