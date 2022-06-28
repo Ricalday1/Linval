@@ -42,7 +42,7 @@ namespace Heroesvillanos.SqlManager
                         {
                             heroesvillanos.Add(new Heroevillano()
                             {
-                                Id = reader.GetInt32(0),
+                                Id = reader.GetInt64(0),
                                 Name = reader.GetString(1),
                                 //Identity =  reader.GetString(2)
                             }) ;                            
@@ -131,7 +131,7 @@ namespace Heroesvillanos.SqlManager
                             + " , @firstappearance "
                             + " , @year "
                             + " , @universe "
-                            )";
+                            +" )";
 
 
                     SqlCommand sqlCommand = new SqlCommand(SqlCreate, connection);
@@ -142,12 +142,12 @@ namespace Heroesvillanos.SqlManager
                     sqlCommand.Parameters.Add(new SqlParameter("@identity", heroevillano.Identity));
                     sqlCommand.Parameters.Add(new SqlParameter("@alignment", heroevillano.Alignment));
                     sqlCommand.Parameters.Add(new SqlParameter("@eyecolor", heroevillano.EyeColor));
-                    sqlCommand.Parameters.Add(new SqlParameter("@haircolor", heroevillano.HairColorPopularity));
+                    //sqlCommand.Parameters.Add(new SqlParameter("@haircolor", heroevillano.HairColor));
                     sqlCommand.Parameters.Add(new SqlParameter("@gender", heroevillano.Gender));
-                    sqlCommand.Parameters.Add(new SqlParameter("@status", heroevillano.Gender));
-                    sqlCommand.Parameters.Add(new SqlParameter("@appearance", heroevillano.Appearance));
-                    sqlCommand.Parameters.Add(new SqlParameter("@firstappearance", heroevillano.FirstAppearence));
-                    sqlCommand.Parameters.Add(new SqlParameter("@year", heroevillano.Year));
+                    sqlCommand.Parameters.Add(new SqlParameter("@status", heroevillano.Status));
+                  //sqlCommand.Parameters.Add(new SqlParameter("@appearance", heroevillano.Appearance));
+                  //sqlCommand.Parameters.Add(new SqlParameter("@firstappearance", heroevillano.FirstAppearence));
+                  //sqlCommand.Parameters.Add(new SqlParameter("@year", heroevillano.Year));
                     sqlCommand.Parameters.Add(new SqlParameter("@universe", heroevillano.Universe));
                     
                      

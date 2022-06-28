@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Heroesvillanos;
+using Heroesvillanos.SqlManager;
 
 namespace HeroesvillanosWebApi.Controllers;
 
@@ -12,13 +13,13 @@ namespace HeroesvillanosWebApi.Controllers;
 [Route("api/[controller]")]
 public class HeroesvillanosController : ControllerBase
 {
-    private readonly ILogger<HeroesvillanosController> _logger;
-    private readonly Repository _repository;
-    public HeroesvillanosController(ILogger<HeroesvillanosController> logger)
+    //private readonly ILogger<HeroesvillanosController> _logger;
+    private readonly IRepository _repository;
+    public HeroesvillanosController( )
     {
-        _logger = logger;
-        _repository = new Repository();
-        _repository.LoadFile(@"C:\Users\1\Desktop\marvel_dc_characters.csv");
+        //_logger = logger;
+        _repository = new SqlRepository();
+        //_repository.LoadFile(@"C:\Users\1\Desktop\marvel_dc_characters.csv");
     }
 
     [HttpGet]
