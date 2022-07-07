@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\1\\Linval\\marvel\\heroesvillanos\\heroesvillanos.csproj": {
-                "projectPath": "C:\\Users\\1\\Linval\\marvel\\heroesvillanos\\heroesvillanos.csproj"
+              "C:\\Users\\1\\Linval\\marvel\\heroesvillanos\\Heroesvillanos.csproj": {
+                "projectPath": "C:\\Users\\1\\Linval\\marvel\\heroesvillanos\\Heroesvillanos.csproj"
               }
             }
           }
@@ -62,12 +62,12 @@
         }
       }
     },
-    "C:\\Users\\1\\Linval\\marvel\\heroesvillanos\\heroesvillanos.csproj": {
+    "C:\\Users\\1\\Linval\\marvel\\heroesvillanos\\Heroesvillanos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\Linval\\marvel\\heroesvillanos\\heroesvillanos.csproj",
-        "projectName": "heroesvillanos",
-        "projectPath": "C:\\Users\\1\\Linval\\marvel\\heroesvillanos\\heroesvillanos.csproj",
+        "projectUniqueName": "C:\\Users\\1\\Linval\\marvel\\heroesvillanos\\Heroesvillanos.csproj",
+        "projectName": "Heroesvillanos",
+        "projectPath": "C:\\Users\\1\\Linval\\marvel\\heroesvillanos\\Heroesvillanos.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\1\\Linval\\marvel\\heroesvillanos\\obj\\",
         "projectStyle": "PackageReference",
@@ -97,12 +97,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

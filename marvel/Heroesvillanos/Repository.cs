@@ -1,5 +1,5 @@
 namespace Heroesvillanos;
-public class Repository
+public class Repository 
 {     
     public List<Heroevillano> ListHeroesvillanos { get; set;}
     public bool LoadedFile {get; set;} = false;
