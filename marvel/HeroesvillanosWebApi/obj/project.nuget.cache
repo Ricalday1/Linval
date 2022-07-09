@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0g5wZsg7MYOtA+qEs8thLeCWFskqS9E9EvksK5HceJ2YQ0yRknVFQOUrRhFQqSVrjKZhjg0IF/trs14k3giFqw==",
+  "dgSpecHash": "6DRJxYBYEUSU5y9n4bIv8RB3urMGHAC+C5PXOa/altNz68E09eybsZglzf9wUnpGrPyFjVPIuo04XAv4gy2grA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1\\Linval\\marvel\\HeroesvillanosWebApi\\HeroesvillanosWebApi.csproj",
+  "projectFilePath": "C:\\Users\\1\\Linval\\marvel\\heroesvillanoswebapi\\HeroesvillanosWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

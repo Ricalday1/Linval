@@ -18,5 +18,14 @@ C:\Users\1\Linval\marvel\heroesvillanos\obj\Debug\net6.0\Heroesvillanos.dll
 C:\Users\1\Linval\marvel\heroesvillanos\obj\Debug\net6.0\refint\Heroesvillanos.dll
 C:\Users\1\Linval\marvel\heroesvillanos\obj\Debug\net6.0\Heroesvillanos.pdb
 C:\Users\1\Linval\marvel\heroesvillanos\obj\Debug\net6.0\ref\Heroesvillanos.dll
-C:\Users\1\Linval\marvel\heroesvillanos\obj\Debug\net6.0\Heroesvillanos.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\1\Linval\marvel\heroesvillanos\obj\Debug\net6.0\Heroesvillanos.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\1\Linval\marvel\heroesvillanos\bin\Debug\net6.0\Heroesvillanos.exe
+C:\Users\1\Linval\marvel\heroesvillanos\bin\Debug\net6.0\Heroesvillanos.runtimeconfig.json
+C:\Users\1\Linval\marvel\heroesvillanos\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\1\Linval\marvel\heroesvillanos\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\1\Linval\marvel\heroesvillanos\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\1\Linval\marvel\heroesvillanos\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\1\Linval\marvel\heroesvillanos\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\1\Linval\marvel\heroesvillanos\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\1\Linval\marvel\heroesvillanos\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\1\Linval\marvel\heroesvillanos\obj\Debug\net6.0\Heroesvillanos.csproj.CopyComplete
+C:\Users\1\Linval\marvel\heroesvillanos\obj\Debug\net6.0\Heroesvillanos.genruntimeconfig.cache

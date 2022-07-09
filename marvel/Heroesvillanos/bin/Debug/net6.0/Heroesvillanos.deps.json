@@ -6,13 +6,13 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "heroesvillanos/1.0.0": {
+      "Heroesvillanos/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
           "System.Data.SqlClient": "4.8.3"
         },
         "runtime": {
-          "heroesvillanos.dll": {}
+          "Heroesvillanos.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
@@ -101,7 +101,7 @@
     }
   },
   "libraries": {
-    "heroesvillanos/1.0.0": {
+    "Heroesvillanos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
