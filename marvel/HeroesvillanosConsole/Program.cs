@@ -2,7 +2,7 @@
 
 var repository = new Repository();
 
-repository.LoadFile(@"C:\Users\1\Desktop\marvel_dc_characters.csv");
+repository.LoadFile(@"C:\Users\1\Linval\marvel\Heroesvillanos\marvel_dc_characters.csv");
 Console.WriteLine("Se cargo el archivo");
 Console.WriteLine("Name    --    Identity  --- Alignment");
 foreach (var heroevillano in repository.GetAll().Take(10))

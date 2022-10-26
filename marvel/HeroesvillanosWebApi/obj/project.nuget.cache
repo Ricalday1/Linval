@@ -1,15 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6DRJxYBYEUSU5y9n4bIv8RB3urMGHAC+C5PXOa/altNz68E09eybsZglzf9wUnpGrPyFjVPIuo04XAv4gy2grA==",
+  "dgSpecHash": "Zi8fs0AHYfp8w8uArq6L9m4ICH658Yseu9ZsZGOQTTpwDp8zzY6o0Vf5jNPdk6qP69SS32JOWXzmlF619SwFtQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\1\\Linval\\marvel\\heroesvillanoswebapi\\HeroesvillanosWebApi.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\1\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\1\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\1\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\1\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\1\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\1\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\1\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

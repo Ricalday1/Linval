@@ -15,12 +15,10 @@ public class HeroesvillanosController : ControllerBase
 {
     //private readonly ILogger<HeroesvillanosController> _logger;
     private readonly IRepository _repository;
-    public HeroesvillanosController( )
-    {
+    public HeroesvillanosController() =>
         //_logger = logger;
         _repository = new SqlRepository();
         //_repository.LoadFile(@"C:\Users\1\Desktop\marvel_dc_characters.csv");
-    }
 
     [HttpGet]
     [Route("GetHeroesvillanos")]
@@ -37,12 +35,14 @@ public class HeroesvillanosController : ControllerBase
         return _repository.GetHeroevillanoByName(name);
     }
 
-     [HttpPost]
+    [HttpPost]
     [Route("Heroesvillanos")]
     public long Post([FromBody] Heroevillano heroevillano)
     {
         return _repository.Create(heroevillano);
     }
+
+    
 }
 
    

@@ -8,9 +8,9 @@ public class Parser
         var values = line.Split(',');
         heroevillano.Id = long.Parse(values[0]);
         heroevillano.Name = values[1];
-       // heroevillano.Gender = (Gender)Enum.Parse(typeof(Genre), values[2]);
-      //  heroevillno.Alignment = (Alignment)Enum.Parse(typeof(Alige), values[3]);
-       // heroevillano.Eyecolor = long.Parse(values[5]);
+        //heroevillano.Identity = (Gender)Enum.Parse(typeof(Gender), values[2]);
+        //heroevillno.Alignment = (Alignment)Enum.Parse(typeof(Alige), values[3]);
+        //heroevillano.Eyecolor = long.Parse(values[5]);
         //heroevillano.Haircolor = values[6].Split('-').ToList();
         return heroevillano;
     }

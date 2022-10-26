@@ -13,6 +13,6 @@ public enum Haircolor
     Blue,
     Yellow,
     Orange,
-    Pink
+    Pink,
 
 }

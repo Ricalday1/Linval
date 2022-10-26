@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "HeroesvillanosConsole/1.0.0": {
+      "heroesvillanosconsole/1.0.0": {
         "dependencies": {
-          "heroesvillanos": "1.0.0"
+          "Heroesvillanos": "1.0.0"
         },
         "runtime": {
-          "HeroesvillanosConsole.dll": {}
+          "heroesvillanosconsole.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
@@ -97,19 +97,19 @@
         }
       },
       "System.Security.Principal.Windows/4.7.0": {},
-      "heroesvillanos/1.0.0": {
+      "Heroesvillanos/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
           "System.Data.SqlClient": "4.8.3"
         },
         "runtime": {
-          "heroesvillanos.dll": {}
+          "Heroesvillanos.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "HeroesvillanosConsole/1.0.0": {
+    "heroesvillanosconsole/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -184,7 +184,7 @@
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
     },
-    "heroesvillanos/1.0.0": {
+    "Heroesvillanos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
